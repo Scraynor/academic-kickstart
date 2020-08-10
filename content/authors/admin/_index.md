@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+name: Sophie Raynor
 
 # Username (this should match the folder name)
 authors:
@@ -10,66 +10,71 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+<!-- role: -->
+
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Macquarie University
+  url: "https://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-science-and-engineering/departments-and-centres/department-of-mathematics-and-statistics"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a post doc in the [Centre of Australian Category Theory](http://web.science.mq.edu.au/groups/coact/) at [Macquarie University](http://www.mq.edu.au).
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Operad Theory (in particular modular operads)
+- Higher (modular) operads
+- Applications in mathematics and beyond
 
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+
+about:
+- Here is the most recent version of my paper on a [distributive law for modular operads](files/2020.08.09ModOpsDistributive.pdf) (CSMs).  
+
+  #-- courses:
+  #- course: PhD in Artificial Intelligence
+  #  institution: Stanford University
+  #  year: 2012
+  #- course: MEng in Artificial Intelligence
+  #  institution: Massachusetts Institute of Technology
+  #  year: 2009
+  #- course: BSc in Artificial Intelligence
+  #  institution: Massachusetts Institute of Technology
+  #  year: 2008 -->
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+#social:
+#- icon: envelope
+#  icon_pack: fas
+#  link: 'sophie.raynor@mq.edu.au'  # For a direct email link, use "mailto:test@example.org".
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/GeorgeCushen
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+ #- icon: cv
+  #icon_pack: ai
+  #link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+#email: "sophie.raynor@mq.edu.au"
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+#   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a post doc in the [Centre of Australian Category Theory](http://web.science.mq.edu.au/groups/coact/) at [Macquarie University](http://www.mq.edu.au).  
+I work on operad-like structures, their higher analogues, and their applications, particularly in topology.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I'm particularly interested in structures described by graphs admitting cycles. modular operads, compact closed categories, and other structures described by graphs admitting cycles. 

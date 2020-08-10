@@ -1,77 +1,28 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active =true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Projects"
+title = "Research"
 subtitle = ""
-
-[content]
-  # Page type to display. E.g. project.
-  page_type = "project"
-  
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
-  
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
-  
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
-  
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
-
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
-
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   5 = Showcase
-  view = 3
-
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
-
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-  
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
 +++
 
+# Sophie Raynor
+ I'm in the process of building a site with more detailed and accessible information on my research. 
+Until then, feel free to take a look at the following:
+
+- Here is the most recent version of my paper on a [distributive law for modular operads](files/2020.08.09ModOpsDistributive.pdf) (CSMs).  
+
+- My preprint together with L. Bonatto, S. Chettih, A. Linton, M. Robertson and N. Wahl on a weak operad of normalised cacti is [here](files/InfinityCacti-arXiv-version1c.pdf).
+
+- On 11 August 2020, I'll be speaking at [Operads Pop-up](http://operads.com/). Talk slides will appear here.
+
+
+You can find my cv [here](files/cv.pdf). 
+
+Please feel free to get in touch if you want to talk about loops, sphere contractions, or anything else related to the topics mentioned above. I'm also keen to hear from others interested in questions of (neuro)diversity and retention in maths. 
+<!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
+
+More soon!
