@@ -28,7 +28,7 @@ interests:
 
 
 about:
-- Here is the most recent version of my paper on a [distributive law for modular operads](files/2020.08.09ModOpsDistributive.pdf) (CSMs).  
+- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/2020.08.09ModOpsDistributive.pdf) (CSMs).  Please note, this is a draft and has not yet been proofread.
 
   #-- courses:
   #- course: PhD in Artificial Intelligence
