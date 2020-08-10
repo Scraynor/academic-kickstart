@@ -9,7 +9,7 @@ title = "Research"
 subtitle = ""
 +++
 
-# Sophie Raynor
+
  I'm in the process of building a site with more detailed and accessible information on my research. 
 Until then, feel free to take a look at the following:
 

@@ -19,7 +19,7 @@ organizations:
   url: "https://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-science-and-engineering/departments-and-centres/department-of-mathematics-and-statistics"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a post doc in the [Centre of Australian Category Theory](http://web.science.mq.edu.au/groups/coact/) at [Macquarie University](http://www.mq.edu.au).
+bio: I am a post doc in the Centre of Australian Category Theory at [Macquarie University](http://www.mq.edu.au).
 
 interests:
 - Operad Theory (in particular modular operads)
@@ -74,7 +74,7 @@ user_groups:
 - Visitors
 ---
 
-I am a post doc in the [Centre of Australian Category Theory](http://web.science.mq.edu.au/groups/coact/) at [Macquarie University](http://www.mq.edu.au).  
+I am a post doc in the [Centre of Australian Category Theory] at [Macquarie University](http://www.mq.edu.au).  
 I work on operad-like structures, their higher analogues, and their applications, particularly in topology.
 
 I'm particularly interested in [modular operads](files/2020.08.09ModOpsDistributive.pdf) and other structures described by graphs admitting cycles. Watch this space for more notes on loops and sphere contractions.
