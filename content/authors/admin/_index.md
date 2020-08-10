@@ -77,4 +77,7 @@ user_groups:
 I am a post doc in the [Centre of Australian Category Theory](http://web.science.mq.edu.au/groups/coact/) at [Macquarie University](http://www.mq.edu.au).  
 I work on operad-like structures, their higher analogues, and their applications, particularly in topology.
 
-I'm particularly interested in structures described by graphs admitting cycles. modular operads, compact closed categories, and other structures described by graphs admitting cycles. 
+I'm particularly interested in [modular operads](files/2020.08.09ModOpsDistributive.pdf) and other structures described by graphs admitting cycles. Watch this space for more notes on loops and sphere contractions.
+
+I'm also keen on weak (modular) [operads](files/InfinityCacti-arXiv-version1c.pdf), and always keen to think about generalised associahedra and their symmetries.
+
