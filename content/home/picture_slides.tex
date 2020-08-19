@@ -1,0 +1,395 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc} % utf8 file encoding
+\usepackage[T1]{fontenc} % powerful pdf output encoding
+\input{simple/template_short.tex}
+
+%\setbeamertemplate{navigation symbols}{} % removes navigation symbols
+%\usepackage[round]{natbib}   % omit 'round' option if you prefer square brackets
+\bibliographystyle{plainnat}
+\usepackage{bibentry}
+%\usepackage{graphicx} % Allows including images
+\usepackage{booktabs}
+
+\usepackage{makecell}
+
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+
+%% use one of the two below
+%\colorlet{main}{red!50!black}
+\definecolor{dagrine}{RGB}{204,54,8}
+\colorlet{main}{dagrine}
+
+\newtheorem{Thm}{Theorem}[section]
+\newtheorem{Prop}[Thm]{Proposition}
+\newtheorem{Cor}[Thm]{Corollary}
+\newtheorem{Lem}[Thm]{Lemma}
+\newtheorem{Claim}[Thm]{Claim}
+\newtheorem{Ass}[Thm]{Assumption}
+\newtheorem{Defi}[Thm]{Definition}
+\newtheorem{Conj}[Thm]{Conjecture}
+
+
+
+\usepackage{tikz}
+\usetikzlibrary{positioning} 
+\usepackage{standalone}
+%\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{adjustbox}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
+%\usetikzlibrary{calc,
+%arrows,decorations.pathmorphing,
+%backgrounds,fit,positioning,shapes.symbols,chains}
+%\usetikzlibrary{decorations.pathmorphing}
+%\usetikzlibrary{decorations.markings}
+%\usetikzlibrary{positioning,shadows,arrows,trees,shapes,fit}
+%\usetikzlibrary{mindmap}
+
+
+
+\usepackage[xindy, toc]{glossaries}
+\usepackage{multicol}
+%\usepackage{txfonts}%deleted  17/07/2019
+\usepackage[all,cmtip]{xypic} %changed from xy to xypic 17/07/2019
+\usepackage{xypic,calc}
+
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{xcolor}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{calc,
+	arrows,decorations.pathmorphing,
+	backgrounds,fit,positioning,shapes.symbols,chains}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathreplacing,angles,quotes}
+\usetikzlibrary{positioning,shadows,arrows,trees,shapes,fit}
+\usetikzlibrary{mindmap}
+%
+\usepackage{standalone}
+
+%\usepackage{graphicx}%deleted  17/07/2019
+\usepackage{float}
+%\usepackage{floatrow}
+\usepackage{subfigure}
+%\usepackage{bm}   %deleted  17/07/2019
+%\usepackage{yfonts}%deleted  17/07/2019
+%\usepackage{color}
+%\usepackage{colortbl}
+%
+%
+%\definecolor{BlueGreen}{cmyk}{0.85,0,0.33,0}
+%\definecolor{RawSienna}{cmyk}{0,0.72,1,0.45}
+%\definecolor{Magenta}{cmyk}{0,1,0,0}
+
+\newcommand\hadgesh[1]{\textcolor{BlueGreen}{#1}}
+\newcommand\high[1]{{\color{BlueGreen}{#1}}}
+
+
+\newcommand{\maingraph}{%\draw  [ draw=black, dashed,  fill=gray, fill opacity=0.1] plot[smooth, tension=0.7, ] 
+	%	coordinates {(-8,0)(-8,2.5)(-5.5,5)(-1,5)(1,5)(5.5,4.5)(7,3)(6,-2)(4,-4)(2,-6.5)(0,-7)(-3,-6.5)(-4.5,-5)(-7,-2)(-8,0)};
+	%	%G2
+	%	\draw  [draw=green,  fill=green, fill opacity=0.2] plot[smooth, tension=0.7, ] 
+	%	coordinates {(-7.5,0)(-7.5,1)(-7,2.5)(-5,4.5)(0,4.5)(5.5,3)(5,-1.5)(-1,-1.5)(-5,-2)(-7.5,0)};
+	%	\draw  [ draw=green,  fill=green, fill opacity=0.2] plot[smooth, tension=0.7, ] 
+	%	coordinates {(-2, -5 )(-1, -3.5)(1,-3)(2.5,-3.5)(1.5,-5)(0,-6)(-2,-5)};
+	%	%G3
+	%	\draw  [ draw=blue,  fill=blue, fill opacity=0.3] plot[smooth, tension=0.7, ] 
+	%	coordinates {(-7,1)(-5.5,3.5)(-3,3)(-2,1.5)(-2,0)(-5,-1.5)(-7,1)};
+	%	\draw  [ draw=blue,  fill=blue, fill opacity=0.3] plot[smooth, tension=0.7, ] 
+	%	coordinates {(2.5,3)(3,3.5)(4,3.5)(5,3)(5.5,2)(4,0.5)(2.5,3)};
+	%	\draw  [ draw=blue,  fill=blue, fill opacity=0.3] plot[smooth, tension=0.7, ] 
+	%	coordinates {(-1.5,-5)(0,-3.5)(1.5,-4)(0,-5.5)(-1.5,-5)};
+	
+	
+	\draw[ ] 	
+	%cluster 1
+	(-6,1).. controls (-6,2).. (-5,3)
+	(-5,3).. controls (-4.5,3) and (-3.5,3).. (-3,2)
+	(-3,2).. controls (-2.5,1.5) and (-2.5,0.5).. (-3,0)
+	(-3,0).. controls (-3.5,-1).. (-5,-1)
+	(-5,-1).. controls (-6,-0) .. (-6,1)
+	(-5,-1)-- (-3,2)
+	(-3,2)--(-6,1)
+	(-6,1)..controls ( -7.5,1) and (-9, 0.5) ..(-11,0.5)
+	%cluster 2
+	(-1,-5)..controls (-0.5,-3.5) and ( 0.5, -3.5)..(1,-4)
+	(-1,-5)..controls (-0.5,-5) and ( 0.5, -5)..(1,-4)
+	(-1,-5) .. controls (-2.5,-5) and (-5, -4.5) ..(-6, -9)
+	%cluster 3
+	(4,1)--(5,2)
+	(5,2)--(3,3)
+	(3,3)--(4,1)
+	(3,3).. controls (4,3.5) and (5,2.5)..(5,2)
+	(3,3).. controls (3,4) and(4,6)  ..(8,6)
+	%between clusters
+	(-5,3)..controls (-2,4) and (1,4) .. (3,3)
+	(-3,2).. controls (1,-1.5) and (5,-1).. (5,2)
+	(1,-4)..controls (2, -4) and (6,-2).. (5,2)
+	;
+	\draw (-5,-2) circle (1cm);
+	
+	\filldraw [red]	
+	%cluster 1
+	(-6,1) circle (8pt)
+	(-5,3) circle (8pt)
+	(-3,2) circle (8pt)
+	(-3,0) circle (8pt)
+	(-5,-1) circle (8pt)
+	%cluster 2			
+	(1,-4) circle (8pt)
+	(-1,-5) circle (8pt)
+	%cluster 3			
+	(4,1) circle (8pt)
+	(5,2) circle (8pt)
+	(3,3) circle (8pt);
+	
+	
+	
+	%\draw [ultra thick] (,0) to [out=87,in=150] (1,1) -- (.85,.15) -- (0,0);
+	%\draw [ultra thick, fill=blue] 	(-7.5,0) ..controls ( -6,4) and (-2,6)..(0,6)
+	(0,6 ) .. controls (2,6) and (7,4) ..(7,0)
+	( 7,0) .. controls (7,-2) and (2,-8) ..(0,-8)--(0,0)--(-7.5,0);
+	%\path [fill=blue] (4,0) to [out=87,in=150] (5,1) -- (4.85,.15) -- (4,0);
+	
+	
+}
+
+\newcommand{\levelzero}
+{ 	\draw[ ultra thick, black]
+	%cluster 1
+	(-6,1).. controls (-6,2).. (-5,3)
+	(-5,3).. controls (-4.5,3) and (-3.5,3).. (-3,2)
+	(-3,2).. controls (-2.5,1.5) and (-2.5,0.5).. (-3,0)
+	(-3,0).. controls (-3.5,-1).. (-5,-1)
+	(-5,-1).. controls (-6,-0) .. (-6,1)
+	(-5,-1)-- (-3,2)
+	(-3,2)--(-6,1)
+	
+	%cluster 2
+	(-1,-5)..controls (-0.5,-3.5) and ( 0.5, -3.5)..(1,-4)
+	(-1,-5)..controls (-0.5,-5) and ( 0.5, -5)..(1,-4)
+	%cluster 3
+	(4,1)--(5,2)
+	(5,2)--(3,3)
+	(3,3)--(4,1)
+	(3,3).. controls (4,3.5) and (5,2.5)..(5,2);
+	
+	\draw[ ultra thick, black]
+	%cluster 1
+	(-6,1)..controls ( -7.5,1) and (-9, 0.5) ..(-11,0.5)
+	%cluster 2
+	
+	(-1,-5) .. controls (-2.5,-5) and (-5, -4.5) ..(-6, -9)
+	%cluster 3
+	
+	(3,3).. controls (3,4) and(4,6)  ..(8,6)
+	%between clusters
+	(-5,3)..controls (-2,4) and (1,4) .. (3,3)
+	(-3,2).. controls (1,-1.5) and (5,-1).. (5,2)
+	(1,-4)..controls (2, -4) and (6,-2).. (5,2);
+	
+	
+	\filldraw [red]	
+	%cluster 1
+	(-6,1) circle (5pt)
+	(-5,3) circle (5pt)
+	(-3,2) circle (5pt)
+	(-3,0) circle (5pt)
+	(-5,-1) circle (5pt)
+	%cluster 2			
+	(1,-4) circle (5pt)
+	(-1,-5) circle (5pt)
+	%cluster 3			
+	(4,1) circle (5pt)
+	(5,2) circle (5pt)
+	(3,3) circle (5pt);
+	
+	
+	
+	%\draw [ultra thick] (,0) to [out=87,in=150] (1,1) -- (.85,.15) -- (0,0);
+	%\draw [ultra thick, fill=blue] 	(-7.5,0) ..controls ( -6,4) and (-2,6)..(0,6)
+	(0,6 ) .. controls (2,6) and (7,4) ..(7,0)
+	( 7,0) .. controls (7,-2) and (2,-8) ..(0,-8)--(0,0)--(-7.5,0);
+	%\path [fill=blue] (4,0) to [out=87,in=150] (5,1) -- (4.85,.15) -- (4,0);
+	
+	
+	
+}
+
+\newcommand{\levelone}{
+	
+	\draw[ ultra thick] 	
+	
+	(-1.5,1)..controls ( -5.5,1) and (-7, 0.5) ..(-9,0.5)
+	%cluster 2
+	
+	(0,-5) .. controls (-2.5,-5) and (-5, -4.5) ..(-6, -9)
+	%cluster 3
+	
+	(1.5,2).. controls (3,4) and(4,6)  ..(6,6)
+	%between clusters
+	
+	(0,-5)..controls (2, -4) and (6,-2).. (1.5,2)
+	;
+	\draw[ ultra thick] 
+	(-1.5,1)..controls (-1,2) .. (1.5,2)
+	(-1.5,1).. controls (0,0) ..(1.5,2);
+	
+	\filldraw [blue]	
+	%cluster 1
+	(-1.5,1) circle (8pt)
+	
+	%cluster 2			
+	(0,-5) circle (8pt)
+	
+	%cluster 3			
+	(1.5,2) circle (8pt);
+	
+	
+	
+	
+	%\draw [ultra thick] (,0) to [out=87,in=150] (1,1) -- (.85,.15) -- (0,0);
+	%\draw [ultra thick, fill=blue] 	(-7.5,0) ..controls ( -6,4) and (-2,6)..(0,6)
+	(0,6 ) .. controls (2,6) and (7,4) ..(7,0)
+	( 7,0) .. controls (7,-2) and (2,-8) ..(0,-8)--(0,0)--(-7.5,0);
+	%\path [fill=blue] (4,0) to [out=87,in=150] (5,1) -- (4.85,.15) -- (4,0);
+	
+	
+	
+}
+
+\newcommand{\leveltwo}{
+	
+	\draw[ ultra thick] 	
+	
+	(0,1.2)..controls ( -2.5,2) and (-4, 1.5) ..(-6,1.5)
+	%cluster 2
+	
+	(0,-2.5) .. controls (-2.5,-3) and (-5, -2.5) ..(-6, -7)
+	%cluster 3
+	
+	(0,1.2).. controls (-1,4) and(0,6)  ..(4,6);
+	%between clusters
+	\draw[ ultra thick] 		
+	(0,-2.5)-- (0,1.5)
+	;
+	
+	\filldraw [green]	
+	%cluster 1 and 3
+	(0,1.2) circle (10pt)
+	
+	%cluster 2			
+	(0,-2.5) circle (10pt);
+	
+	
+	
+	
+}
+
+\newcommand{\levelthree}
+{
+	\draw[ ultra thick] 	
+	
+	(0,0)..controls ( -1,0.5) and (-4, -0.5) ..(-8,1.5)
+	%cluster 2
+	
+	(0,0) .. controls (-1.5,-0.5) and (-5,- 3.5) ..(-6, -4)
+	%cluster 3
+	
+	(0,0).. controls (-1,2) and(0,4)  ..(4,4);
+	%between clusters
+	
+	
+	\filldraw [gray]	
+	%cluster 1 and 3
+	(0,0) circle (11pt);
+	
+	
+}
+
+\newenvironment{specialframe}
+{
+	\begingroup
+	\advance\textwidth2cm % see beamerthemeGoettingen.sty for the number
+	\hsize\textwidth
+	\columnwidth\textwidth
+	\begin{frame}[plain]
+	}
+	{
+	\end{frame}
+	\endgroup
+}
+
+
+\title[Modular monads]{Unpacking the combinatorics of modular operads}
+%\subtitle{Naive Mathematical Adventures in Neuroscience}
+\author{Sophie Raynor, CoACT, Macquarie University }
+\institute[]{Operads Pop-Up }
+\date{11 August 2020}
+
+\setbeamercovered{dynamic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%START SLIDES%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\input{macrosSlides}
+\begin{frame}{MO definition}
+\begin{tabular}{cc}
+		
+	\includestandalone[width = .35\textwidth]{standalones/coherence1}
+	&
+	\includestandalone[width = .35\textwidth]{standalones/coherence_2}\\
+	
+	\includestandalone[width = .35\textwidth]{standalones/coherence_3}
+	&
+	\includestandalone[width = .35\textwidth]{standalones/coherence_4}
+	
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+	\[\begin{tikzpicture}[scale = .35]
+	\draw
+%	(-1.5,0) circle (1.5cm)
+	(0,0)..controls (.5, 1.2)..(0, 2.7)
+%	(0,0)--(2.5,0)
+%	(2.5,0)..controls(3.5,1)..(5.5,1)
+%	(2.5,0)..controls(3.5,-1)..(5.5,-1.5)
+	(0, 2.7).. controls (-1,4)..(-.5,6)
+	(0, 2.7) -- (-2.8,3)
+	(0, 2.7) -- (2, 5.7);
+	\filldraw[white]
+	(0, 2.7)circle (20pt)
+%	(0,0) circle (20pt)
+%	(2.5,0) circle (20pt);
+	\draw[red]
+	(0, 2.7) circle (20pt)
+%	(0,0) circle (20pt)
+%	(2.5,0) circle (20pt);
+	\node at
+	(0, 2.7) {\tiny{$\phi$}};
+%	\node at
+%	(0, 0) {\tiny{$\phi_2$}};
+%	\node at
+%	(2.5,0) {\tiny{$\phi_3$}};
+%	\node at
+%	(-.7,.7) {\tiny{$c$}};
+%	\node at
+%	(-1,-.7) {\tiny{$\omega c$}};
+	%(0,0) circle (20pt)
+	%(2.5,0) circle (20pt);
+	\end{tikzpicture}\]
+	\end{frame}
+\end{document}
