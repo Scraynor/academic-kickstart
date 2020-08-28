@@ -28,7 +28,7 @@ interests:
 
 
 about:
-- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/2020_08_27_ModOp.pdf) (CSMs).  Please note, this is a draft and has not yet been proofread.
+- Here is the most up-to-date version (28/08/20) of my paper on a [distributive law for modular operads](files/2020_08_28ModOp.pdf) (CSMs).  Please note, this is a draft and has not yet been proofread. 
 
   #-- courses:
   #- course: PhD in Artificial Intelligence
@@ -77,7 +77,7 @@ user_groups:
 I am a post doc in the Centre of Australian Category Theory at [Macquarie University](http://www.mq.edu.au).  
 I work on operad-like structures, their higher analogues, and their applications, particularly in topology.
 
-I'm particularly interested in [modular operads](files/2020_08_27_ModOp.pdf) and other structures described by graphs admitting cycles. Watch this space for more notes on loops and sphere contractions.
+I'm particularly interested in [modular operads](files/2020_08_28ModOp.pdf) (version 28/08/20) and other structures described by graphs admitting cycles. Watch this space for more notes on loops and sphere contractions.
 
 I'm also keen on weak (modular) [operads](files/InfinityCacti-arXiv-version1c.pdf), and always keen to think about generalised associahedra and their symmetries.
 
