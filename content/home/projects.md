@@ -13,7 +13,7 @@ subtitle = ""
  I'm in the process of building a site with more detailed and accessible information on my research. 
 Until then, feel free to take a look at the following:
 
-- This is the most up-to-date version (update 28/08/20) of my paper on a [distributive law for modular operads](files/2020_08_28ModOp.pdf) (CSMs).  Please note, this version is still being proofread.
+- This is the most up-to-date version (update 11/09/20) of my paper on a [distributive law for modular operads](files/ModOp_v2.pdf) (CSMs).  
 
 - Here is my preprint together with L. Bonatto, S. Chettih, A. Linton, M. Robertson and N. Wahl on a [weak operad of normalised cacti](files/InfinityCacti-arXiv-version1c.pdf). 
 
