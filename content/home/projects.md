@@ -15,6 +15,13 @@ Until then, feel free to take a look at the following:
 
 - This is the most up-to-date version (update 11/09/20) of my paper on a [distributive law for modular operads](files/ModOp_v2.pdf) (CSMs).  
 
+- Here are some Australian Category Seminar talk slides on work extending that paper:
+[Graphs and nerves for circuit operads](files/2020_10_21_AusCat_circuits.pdf), 21 October 2020,
+[Graphs and nerves for compact closed categories](files/2020_10_28AusCat_CompactNerve.pdf), 28 October 2020,
+[An operadic nerve theorem for compact closed categories](files/2020_11_04_AusCat_OperadicModel.pdf), 5 November 2020.
+
+
+
 - Here is my preprint together with L. Bonatto, S. Chettih, A. Linton, M. Robertson and N. Wahl on a [weak operad of normalised cacti](files/InfinityCacti-arXiv-version1c.pdf). 
 
 - 11 August 2020, [Operads Pop-up](http://operads.com/). [Talk slides](files/Operads_popup.pdf).
