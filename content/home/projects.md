@@ -18,7 +18,7 @@ Until then, feel free to take a look at the following:
 - Here are some Australian Category Seminar talk slides on work extending that paper:
 [Graphs and nerves for circuit operads](files/2020_10_21_AusCat_circuits.pdf), 21 October 2020,
 [Graphs and nerves for compact closed categories](files/2020_10_28AusCat_CompactNerve.pdf), 28 October 2020,
-[An operadic nerve theorem for compact closed categories](files/2020_11_04_AusCat_OperadicModel.pdf), 5 November 2020.
+[An operadic model structure for compact closed categories](files/2020_11_04_AusCat_OperadicModel.pdf), 5 November 2020.
 
 
 
