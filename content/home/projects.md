@@ -29,7 +29,10 @@ Until then, feel free to take a look at the following:
 
 You can find my cv [here](files/cv.pdf). 
 
-Please feel free to get in touch if you want to talk about loops, sphere contractions, or anything else related to the topics mentioned above. I'm also keen to hear from others interested in questions of (neuro)diversity and retention in maths. 
-<!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
+Please feel free to get in touch if you want to talk about loops, sphere contractions, or anything else related to the topics mentioned above. 
+
+I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `Speaking to power' to address persistent bias in the academy. 
+
+ <!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
 
 More soon!
