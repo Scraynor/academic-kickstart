@@ -15,8 +15,7 @@ superuser: true
 
 # Organizations/Affiliations
 organizations:
-- name: I acknowledge the traditional custodians of the Macquarie University Land, the Wattamattageal clan of the Darug nation, 
-whose cultures and customs have nurtured, and continue to nurture this land. I pay my respects to Elders past, present and future.
+- name: Macquarie University
   url: "https://www.mq.edu.au/about/about-the-university/faculties-and-departments/faculty-of-science-and-engineering/departments-and-centres/department-of-mathematics-and-statistics"
  # - I acknowledge the traditional custodians of the Macquarie University Land, the Wattamattageal clan of the Darug nation, 
 # whose cultures and customs have nurtured, and continue to nurture this land. I pay my respects to Elders past, present and future.
