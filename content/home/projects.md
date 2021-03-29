@@ -8,9 +8,12 @@ weight = 65  # Order that this section will appear.
 title = "Research"
 subtitle = ""
 +++
+I'm particularly interested in modular operads and other structures described by graphs admitting cycles. Watch this space for more notes on loops and sphere contractions.
+
+I'm also keen on weak (modular) operads, and always interested in thinking about generalised associahedra and their symmetries.
 
 
- I'm in the process of building a site with more detailed and accessible information on my research. 
+Right now, I'm in the process of building a site with more detailed and accessible information on my research. 
 Until then, feel free to take a look at the following:
 
 - This is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210329.pdf) (CSMs).  
@@ -31,7 +34,7 @@ You can find my cv [here](files/cv.pdf).
 
 Please feel free to get in touch if you want to talk about loops, sphere contractions, or anything else related to the topics mentioned above. 
 
-I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `Speaking to power' to address persistent bias in the academy. 
+I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `speaking to power' to address persistent bias in the academy. 
 
  <!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
 
