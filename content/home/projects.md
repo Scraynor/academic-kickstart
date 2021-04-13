@@ -16,7 +16,7 @@ I'm also keen on weak (modular) operads, and always interested in thinking about
 Right now, I'm in the process of building a site with more detailed and accessible information on my research. 
 Until then, feel free to take a look at the following:
 
-- This is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210329.pdf) (CSMs).  
+- This is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf).  
 
 - Here are some Australian Category Seminar talk slides on work extending that paper:
 [Graphs and nerves for circuit operads](files/2020_10_21_AusCat_circuits.pdf), 21 October 2020,

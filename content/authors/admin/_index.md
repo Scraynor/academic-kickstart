@@ -30,7 +30,7 @@ interests:
 
 
 about:
-- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210329.pdf) (CSMs).  
+- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf) (CSMs).  
 
   #-- courses:
   #- course: PhD in Artificial Intelligence
