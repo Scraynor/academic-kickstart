@@ -17,9 +17,9 @@ Right now, I'm in the process of building a site with more detailed and accessib
 Until then, feel free to take a look at the following:
 
 - Here is my paper on [Brauer categories and circuit algebras](files/COWebV1.pdf). (There are still a couple of references missing, and it's being read again for typos.)
+- Here are annotated [slides](files/OcHoTopJuly21) from my talk on that paper at OcHoTop, Lille, 7 July 2021.
+
 - Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf) (CSMs) to appear in Advances in Mathematics.
-
-
 - Here are some Australian Category Seminar talk slides on work extending that paper:
 [Graphs and nerves for circuit operads](files/2020_10_21_AusCat_circuits.pdf), 21 October 2020,
 [Graphs and nerves for compact closed categories](files/2020_10_28AusCat_CompactNerve.pdf), 28 October 2020,
