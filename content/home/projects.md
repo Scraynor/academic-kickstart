@@ -38,7 +38,7 @@ Please feel free to get in touch if you want to talk about loops, sphere contrac
 
 I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `speaking to power' to address persistent bias in the academy. And the possibility (or not?) of ethical outreach. 
 
-It's easy to be too overwhelmed to sit down and read about these issues. If that's the case, why not listen to the [Mathematically Uncensored](https://minoritymath.org/mathematically-uncensored/) podcast from the (https://minoritymath.org/)[Center for Minorities in the Mathematical Sciences](https://minoritymath.org/) on your commute?
+It's easy to be too overwhelmed to sit down and read about these issues. If that's the case, why not listen to the [Mathematically Uncensored](https://minoritymath.org/mathematically-uncensored/) podcast from the [Center for Minorities in the Mathematical Sciences](https://minoritymath.org/) on your commute? (I recommend listening even if you're not overwhelmed with reading.)
 
  <!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
 
