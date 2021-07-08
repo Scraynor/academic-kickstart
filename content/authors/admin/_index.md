@@ -30,7 +30,8 @@ interests:
 
 
 about:
-- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf) (CSMs).  
+- Here is my paper on [Brauer categories and circuit algebras](files/COWebV1.pdf). (There are still a couple of references missing, and it's being read again for typos.)
+- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf) (CSMs) to appear in Advances in Mathematics.
 
   #-- courses:
   #- course: PhD in Artificial Intelligence

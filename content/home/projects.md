@@ -16,7 +16,9 @@ I'm also keen on weak (modular) operads, and always interested in thinking about
 Right now, I'm in the process of building a site with more detailed and accessible information on my research. 
 Until then, feel free to take a look at the following:
 
-- This is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf).  
+- Here is my paper on [Brauer categories and circuit algebras](files/COWebV1.pdf). (There are still a couple of references missing, and it's being read again for typos.)
+- Here is the most up-to-date version of my paper on a [distributive law for modular operads](files/MO210412.pdf) (CSMs) to appear in Advances in Mathematics.
+
 
 - Here are some Australian Category Seminar talk slides on work extending that paper:
 [Graphs and nerves for circuit operads](files/2020_10_21_AusCat_circuits.pdf), 21 October 2020,
@@ -34,7 +36,9 @@ You can find my cv [here](files/cv.pdf).
 
 Please feel free to get in touch if you want to talk about loops, sphere contractions, or anything else related to the topics mentioned above. 
 
-I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `speaking to power' to address persistent bias in the academy. 
+I'm also keen to hear from others interested in questions of representation and retention in maths. Especially to share thoughts on `speaking to power' to address persistent bias in the academy. And the possibility (or not?) of ethical outreach. 
+
+It's easy to be too overwhelmed to sit down and read about these issues. If that's the case, why not listen to the [Mathematically Uncensored](https://minoritymath.org/mathematically-uncensored/) podcast from the (https://minoritymath.org/)[Center for Minorities in the Mathematical Sciences](https://minoritymath.org/) on your commute?
 
  <!-- I'm always curious to know about any work on feedback loops, recursion, fixed points. -->
 
